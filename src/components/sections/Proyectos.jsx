@@ -2,6 +2,8 @@ import styled from "styled-components";
 import nftpage from "../../assets/proyectos/nft.png";
 import calendar from "../../assets/proyectos/calendarr.png";
 import peliculas from "../../assets/proyectos/peliculas.png"
+import devjobs from "../../assets/proyectos/devjobs.png"
+import pokedex from "../../assets/proyectos/pokedex.png"
 
 const proyectosData = [
   {
@@ -24,6 +26,20 @@ const proyectosData = [
     descripcion: "La aplicación tiene como objetivo mostrar información detallada sobre películas, incluyendo detalles como el título, género y descripción. Se emplearon tecnolgoias como react, react router, Styled-components, fetch API para hacer solicitudes y la API The Movie Database",
     imagen: peliculas,
     enlace: "https://react-peliculass.netlify.app/",
+  },
+  {
+    id: 4,
+    nombre: "DevJobs",
+    descripcion: "Una aplicación web que ofrece una plataforma interactiva para explorar oportunidades laborales en el campo del desarrollo. Desarrollada utilizando React y Vite. Los usuarios pueden buscar trabajos por título, empresa y ubicación, así como filtrar por tipo de contrato (tiempo completo, tiempo parcial, freelance). La navegación entre detalles de trabajos específicos se gestiona eficientemente con React Router. La aplicación también proporciona información detallada sobre los requisitos y responsabilidades asociadas a cada puesto.",
+    imagen: devjobs,
+    enlace: "https://react-devjobs.netlify.app/",
+  },
+  {
+    id: 5,
+    nombre: "Pokedex",
+    descripcion: "Una aplicación web construida con React 18 y Vite. La aplicación proporciona una experiencia interactiva para explorar y aprender sobre los Pokémon, presentando información detallada, estadísticas y tipos. Diseñada con una interfaz de usuario receptiva y atractiva, la Pokedex utiliza las tecnologías más recientes como TypeScript, ESLint para linting, y React Hooks para gestionar el estado y el ciclo de vida del componente.",
+    imagen: pokedex,
+    enlace: "https://react-pokedexapii.netlify.app/",
   },
   // Puedes agregar más proyectos según sea necesario
 ];
