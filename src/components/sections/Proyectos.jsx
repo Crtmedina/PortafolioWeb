@@ -10,43 +10,22 @@ import teslo from "../../assets/proyectos/teslo.png"
 const proyectosData = [
   {
     id: 1,
-    nombre: "NFT Page",
-    descripcion: "NFT Page:  Este proyecto se centra en la creación del modelo de una página NFT, con un enfoque específico en el desarrollo del frontend utilizando React. Mi objetivo principal fue aplicar una variedad de estilos mediante Styled Components para lograr un sitio web con una interfaz más amigable y atractiva para los usuarios.",
-    imagen: nftpage,
-    enlace: "https://react-nftpage.netlify.app/",
-  },
-  {
-    id: 2,
     nombre: "Calendar Mern",
     descripcion: "Este proyecto se centra en el desarrollo de un sistema de calendario implementado utilizando el stack MERN (MongoDB, Express.js, React y Node.js) con la adición de la gestión de estado a través de Redux. La aplicación permite a los usuarios gestionar eventos, incluyendo funciones como la creación, visualización, edición y eliminación de eventos en un entorno interactivo y amigable.",
     imagen: calendar,
     enlace: "https://calendar-mern-md-0cd9f43879e8.herokuapp.com/auth/login",
   },
   {
-    id: 3,
+    id: 2,
     nombre: "Peliculas",
     descripcion: "La aplicación tiene como objetivo mostrar información detallada sobre películas, incluyendo detalles como el título, género y descripción. Se emplearon tecnolgoias como react, react router, Styled-components, fetch API para hacer solicitudes y la API The Movie Database",
     imagen: peliculas,
     enlace: "https://react-peliculass.netlify.app/",
   },
   {
-    id: 4,
-    nombre: "DevJobs",
-    descripcion: "Una aplicación web que ofrece una plataforma interactiva para explorar oportunidades laborales en el campo del desarrollo. Desarrollada utilizando React y Vite. Los usuarios pueden buscar trabajos por título, empresa y ubicación, así como filtrar por tipo de contrato (tiempo completo, tiempo parcial, freelance). La navegación entre detalles de trabajos específicos se gestiona eficientemente con React Router. La aplicación también proporciona información detallada sobre los requisitos y responsabilidades asociadas a cada puesto.",
-    imagen: devjobs,
-    enlace: "https://react-devjobs.netlify.app/",
-  },
-  {
-    id: 5,
-    nombre: "Pokedex",
-    descripcion: "Una aplicación web construida con React 18 y Vite. La aplicación proporciona una experiencia interactiva para explorar y aprender sobre los Pokémon, presentando información detallada, estadísticas y tipos. Diseñada con una interfaz de usuario receptiva y atractiva, la Pokedex utiliza las tecnologías más recientes como TypeScript, ESLint para linting, y React Hooks para gestionar el estado y el ciclo de vida del componente.",
-    imagen: pokedex,
-    enlace: "https://react-pokedexapii.netlify.app/",
-  },
-  {
-    id: 6,
+    id: 3,
     nombre: "TesloShop",
-    descripcion: "Una replica del sitio web tesla que consite en un ecommerce, una plataforma de compras en línea diseñada para ofrecer una experiencia fluida y segura tanto para los usuarios normales como para los administradores creada con tecnologias tales como React, Nextjs, Typescript, Zustand, Prisma, nextAuth, ReactHookForm, Cloudinary y Paypal React. Los usuarios tipo rol tienen funcionalidades tales como: Autenticación y registro de usuarios, visualización de Productos y filtrado, carrito de compras y checkout con paypal y confirmación de orden y visualización de historial de compras. Los usuarios tipo tiene las mismas funcionaliades a excepcion de gestionar los productos como crear, editar elimar y visualizar las ordenes de todos los usuarios.",
+    descripcion: "Una replica del sitio web tesla que consite en un ecommerce, una plataforma de compras en línea diseñada para ofrecer una experiencia fluida y segura tanto para los usuarios normales como para los administradores creada con tecnologias tales como React, Nextjs, Typescript, Zustand, Prisma, nextAuth, ReactHookForm, Cloudinary y Paypal React. Los usuarios de rol user tienen funcionalidades tales como: autenticación y registro de usuarios, visualización de productos y filtrado, carrito de compras, checkout con paypal, confirmación de orden, visualización de historial de compras. Los usuarios de roi admin en cambio tienen las mismas funcionaliades a excepcion de gestionar los productos como crear, editar eliminar y visualizar las ordenes de todos los usuarios.",
     
     imagen: teslo,
     enlace: "https://crtmedina-tesloshop.vercel.app/",
