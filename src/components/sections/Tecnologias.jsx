@@ -8,6 +8,13 @@ import js from "../../assets/tecnologias/js.png";
 import mongodb from "../../assets/tecnologias/mongodb.png";
 import node from "../../assets/tecnologias/node.png";
 import redux from "../../assets/tecnologias/redux.png";
+import next from "../../assets/tecnologias/nextjs.png";
+import tailwind from "../../assets/tecnologias/tailwind.png";
+import prisma from "../../assets/tecnologias/prisma.png";
+import reacthook from "../../assets/tecnologias/react-hook-form.png";
+import nextauth from "../../assets/tecnologias/nextauth.jpg";
+import paypalreact from "../../assets/tecnologias/paypalreact.png";
+import typescript from "../../assets/tecnologias/typescript.png";
 // Importa otras imágenes según sea necesario
 
 const tecnologiasData = [
@@ -20,6 +27,14 @@ const tecnologiasData = [
   { id: 7, nombre: "MongoDB", imagen: mongodb },
   { id: 8, nombre: "Node", imagen: node },
   { id: 9, nombre: "Redux", imagen: redux },
+  { id: 10, nombre: "NextJS", imagen: next },
+  { id: 11, nombre: "TailwindCSS", imagen: tailwind },
+  { id: 12, nombre: "Prisma Client", imagen: prisma },
+  { id: 13, nombre: "React HooK Form", imagen: reacthook},
+  { id: 14, nombre: "NextAuth", imagen: nextauth},
+  { id: 15, nombre: "Paypal React", imagen: paypalreact},
+  { id: 16, nombre: "TypeScript", imagen: typescript},
+
 
   // Agrega más tecnologías según sea necesario
 ];

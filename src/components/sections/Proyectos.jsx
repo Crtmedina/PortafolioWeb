@@ -4,6 +4,8 @@ import calendar from "../../assets/proyectos/calendarr.png";
 import peliculas from "../../assets/proyectos/peliculas.png"
 import devjobs from "../../assets/proyectos/devjobs.png"
 import pokedex from "../../assets/proyectos/pokedex.png"
+import teslo from "../../assets/proyectos/teslo.png"
+
 
 const proyectosData = [
   {
@@ -40,6 +42,14 @@ const proyectosData = [
     descripcion: "Una aplicación web construida con React 18 y Vite. La aplicación proporciona una experiencia interactiva para explorar y aprender sobre los Pokémon, presentando información detallada, estadísticas y tipos. Diseñada con una interfaz de usuario receptiva y atractiva, la Pokedex utiliza las tecnologías más recientes como TypeScript, ESLint para linting, y React Hooks para gestionar el estado y el ciclo de vida del componente.",
     imagen: pokedex,
     enlace: "https://react-pokedexapii.netlify.app/",
+  },
+  {
+    id: 6,
+    nombre: "TesloShop",
+    descripcion: "Una replica del sitio web tesla que consite en un ecommerce, una plataforma de compras en línea diseñada para ofrecer una experiencia fluida y segura tanto para los usuarios normales como para los administradores creada con tecnologias tales como React, Nextjs, Typescript, Zustand, Prisma, nextAuth, ReactHookForm, Cloudinary y Paypal React. Los usuarios tipo rol tienen funcionalidades tales como: Autenticación y registro de usuarios, visualización de Productos y filtrado, carrito de compras y checkout con paypal y confirmación de orden y visualización de historial de compras. Los usuarios tipo tiene las mismas funcionaliades a excepcion de gestionar los productos como crear, editar elimar y visualizar las ordenes de todos los usuarios.",
+    
+    imagen: teslo,
+    enlace: "https://crtmedina-tesloshop.vercel.app/",
   },
   // Puedes agregar más proyectos según sea necesario
 ];
